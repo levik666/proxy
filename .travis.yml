@@ -7,3 +7,10 @@ cache:
   directories:
   - "$HOME/.gradle/caches/"
   - "$HOME/.gradle/wrapper/"
+deploy:
+  provider: heroku
+  api_key:
+    secure: LqFDZgOjRBmxLHbN4GvtPN5b/iHLQRm/NlGto2I4gX/Cz5y3+VZXwOQQIngfkI6RMPBXHLtT52KQnSZ8CHxS5GWIV6gVOiT4I8UoQOUgQYJYAjIYVgqF2ev+0XjNlIfrWgirlvMVjcV6gupwJ+qTha4EMAClD7GqoPvFcGscuj4DCoxZDc2652qP6+XX0AFhpSHw5Fg/IV/S2+149rmSuANxj98qEizNG8kXz1vHt4wOium8jNJstu7/FzVdn/br43fSJ+tTvYy+zNIF4yX3yw/84hNHuM11wiVfOORlXooD0cxfyLRkRWvjVHG7HdYIjhEVk72rYaNgSvTj7dF9cNPMR34wpnHXBH3dLlF5Fnamjq3/Go02glH9pip86MWEC5R4QnVGGvqgt4f/ODwXda+DIu4k9K6RKNdIGjz+bXuzpGBJ6U6MeGu4cV94SrmHXOCnCsn0/Pld3DqEvAGQIXQgssxCoACQruIyhJwVZkpqo4XlRqdqPdSgaL4oluNb/xkrgRCWutZOa132aE96k32Yy87tcrLv4rY+8lvfu7/+rmUt3ExlPlbLgtKykrYER7Y6TN9SQ/qbf3HLvHOvbOa+JxlZlzHRbUkTfeISxPkiTGYNiAvLM+bhyICbf6MbA2I+IiciffsFD1dowTOxgOjvF7VQdFbgDLUZNJQeoT4=
+  app: browserproxy
+  on:
+    repo: levik666/proxy
